@@ -1,0 +1,140 @@
+:root {
+  --Lightred: hsl(356, 100%, 66%);
+  --textcolor: hsl(0, 0%, 100%);
+  --Grayishblue: hsl(240, 2%, 79%);
+  --darkgrayishblue: hsl(207, 13%, 34%);
+  --darkblackblue: hsl(240, 10%, 16%);
+}
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+}
+body h1,
+body p {
+  font-family: "overpass", sans-serif;
+}
+header {
+  text-align: center;
+  color: var(--textcolor);
+  background-image: linear-gradient(
+    to right,
+    hsl(13, 100%, 72%),
+    hsl(353, 100%, 62%)
+  );
+  padding-bottom: 60px;
+  border-radius: 0 0 0 100px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px 100px;
+  font-family: sans-serif;
+}
+
+.navbar-title {
+  font-size: 30px;
+}
+header a {
+  text-decoration: none;
+  color: var(--textcolor);
+  margin: 10px;
+}
+
+.navbar-content {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: -100px;
+}
+.arrow {
+  border: solid var(--textcolor);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.navbar-logins {
+  font-weight: 600;
+}
+.navbar-content,
+.navbar-logins {
+  margin-top: 10px;
+}
+#button1 {
+  background-color: white;
+  color: hsl(353, 100%, 62%);
+  padding: 15px 35px;
+  border-radius: 25px;
+}
+#button2 {
+  background-color: transparent;
+  border: 2px solid var(--textcolor);
+  padding: 15px 35px;
+  border-radius: 25px;
+}
+header section h1 {
+  font-size: 60px;
+  margin: 100px 0 0 0;
+}
+header section p {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+header section {
+  margin-bottom: 100px;
+}
+
+header section div a {
+  padding-bottom: 200px;
+}
+main {
+  overflow: hidden;
+}
+.pageone {
+  margin: 150px 150px 0 150px;
+}
+
+.pageonecontainer {
+  display: flex;
+}
+.pageone h1 {
+  color: #1f3f5b;
+}
+.pageone-title {
+  text-align: center;
+  margin-left: 50px;
+  font-size: 30px;
+  margin-top: 0px;
+}
+.pageone-columnright img {
+  position: relative;
+  left: 300px;
+  bottom: 100px;
+  margin-left: 60px;
+}
+.pageone p {
+  font-size: 20px;
+}
+footer {
+  background-color: #25252d;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  padding: 50px;
+  border-radius: 0px 100px 0px 0px;
+}
+footer li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+footer h1 {
+  font-size: 40px;
+}
+footer p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
